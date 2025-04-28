@@ -73,7 +73,7 @@ console.log(raiz1, raiz2)
 */
 
 /* ## Exemplo 5:
-*/
+
 
 function boasVindas(nome, idade){
 return `
@@ -91,3 +91,5 @@ boasVindas(nome, idade)
 let mensagem = boasVindas(nome, idade)
 alert(mensagem)
 console.log(mensagem)
+
+*/
