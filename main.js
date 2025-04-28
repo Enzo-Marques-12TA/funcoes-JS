@@ -75,6 +75,19 @@ console.log(raiz1, raiz2)
 /* ## Exemplo 5:
 */
 
-function boasVindas(){
-    console.log("Seja bem vindo(a)!")
+function boasVindas(nome, idade){
+return `
+Seja bem vindo(a), ${nome}!
+${nome}, você é muito especial
+Parabéns pelo seu aniversário de ${idade} anos.
+`
+
+    console.log("Seja bem vindo(a), " + nome)
+    console.log(nome + ", você é muito especial")
+    console.log("Parabéns pelo seu aniversário de " + idade + " anos.")
 }
+
+let nome = prompt("Digite seu nome: ")
+let idade = prompt("Digite sua idade: ")
+
+boasVindas(nome, idade)
