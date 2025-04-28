@@ -81,13 +81,13 @@ Seja bem vindo(a), ${nome}!
 ${nome}, você é muito especial
 Parabéns pelo seu aniversário de ${idade} anos.
 `
-
-    console.log("Seja bem vindo(a), " + nome)
-    console.log(nome + ", você é muito especial")
-    console.log("Parabéns pelo seu aniversário de " + idade + " anos.")
 }
 
 let nome = prompt("Digite seu nome: ")
 let idade = prompt("Digite sua idade: ")
 
 boasVindas(nome, idade)
+
+let mensagem = boasVindas(nome, idade)
+alert(mensagem)
+console.log(mensagem)
